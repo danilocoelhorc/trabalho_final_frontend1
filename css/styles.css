@@ -1,0 +1,112 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#bgdireita {
+    background-image: url(../images/background_red.jpg);
+    width: 25%;
+    height: 100vh;
+    float: left
+}
+
+#bgesquerda {
+    background-image: url(../images/background.jpg);
+    width: 75%;
+    height: 100vh;
+    float: right
+}
+
+#conteudo-direita {
+    margin-bottom: 40px;
+    width: 50%;
+    float: left;
+}
+
+#conteudo-esquerda {
+    margin-bottom: 40px;
+    width: 50%;
+    float: right
+}
+
+.font-principal {
+    font-family: 'Franklin Gothic Medium';
+  
+}
+
+.font-secundaria {
+    font-family:'Arial Narrow'; 
+}
+
+span {
+    font-weight: bold;
+}
+
+
+#portifolio {
+    text-align: center;
+    background-image: url(../images/background_white.jpg);
+    width: 100%;
+    height: 100vh;
+    float: right
+}
+
+
+h1 {
+    margin: 200px 0px 0px 40px;
+}
+
+h2 {
+    text-align: center;
+    margin: 200px 0px 0px 0px;
+}
+
+h3 {
+    margin: 0px 0px 0px 40px;
+}
+
+.menu ul {
+
+    margin: 15px 0px 0px 0px;
+    list-style: none;
+   
+}
+
+.conteudo ol, ul, p {
+   
+    margin: 0px 0px 0px 40px;
+    line-height: 20px;
+}
+
+nav {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+   color: rgba(82, 9, 9, 0.699);
+
+}
+
+
+.maiusculo {
+    text-transform: uppercase;
+}
+
+.imagem-perfil {
+    margin-top: 200px;
+    width: 120px;
+    border-radius: 60px;
+    border: 3px solid rgba(14, 1, 1, 0.24)
+}
+
+.icones {
+    max-width: 30px;
+    max-height: 30px;
+    margin: 20px 0px 0px 40px;
+}
